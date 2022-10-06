@@ -37,7 +37,6 @@ function ScrollDown() {
                             stroke: "var(--title-color)",
                             strokeWidth: "20px",
                         }}
-
                     ></path>
                 </svg>
                 <span className="home_scroll-name">Scroll Down</span>

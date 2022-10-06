@@ -4,8 +4,8 @@
 
 .home_content{
     grid-template-columns: 116px repeat(2,1fr);
-    padding-top: 5.5rem;
-    column-gap: .5rem;
+    padding-top: 2.5rem;
+    column-gap: 1.5rem;
     align-items: center;
 }
 
@@ -30,8 +30,8 @@
 }
 
 .home_hand{
-    width: 48px;
-    height: 48px;
+    width: 36px;
+    height: 36px;
     margin-left: 0.4rem;
 }
 
@@ -54,7 +54,7 @@
 .home_description{
     text-align: justify;
     max-width: 400px;
-    margin-bottom: var(--mb-3);
+    margin-bottom: var(--mb-2-5);
 }
 
 .home_img{
@@ -66,7 +66,7 @@
     order: 1;
     justify-self: center;
     width: 350px;
-    height: 500px;
+    height: 400px;
     animation: profile_animate 8s ease-in-out infinite 1s;
 }
 
@@ -86,7 +86,8 @@
 }
 
 .home_scroll{
-    margin-left: 9.25rem;
+    margin-top: 40px;
+    margin-left: 8.25rem;
 }
 
 .wheel{
@@ -108,10 +109,90 @@
     color: var(--title-color);
     font-weight: var(--font-medium);
     margin-right: var(--mb-0-25);
-    margin-left: 2px;
+    margin-left: 5px;
 }
 
 .home_scroll-arrow{
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: var(--title-color);
+}
+
+/* breakpoints */
+
+/* large devices */
+@media screen and (max-width:992px) {
+    .home_content{
+        grid-template-columns: 100px repeat(2, 1fr);
+        column-gap: 1.25rem;
+    }
+
+    .home_hand{
+        width: 26px;
+        height: 26px;
+    }
+
+    .home_subtitle {
+        padding-left: 3.75rem;
+        margin-bottom: var(--mb-1);
+    }
+
+    .home_subtitle::before {
+        width: 42px;
+        top: 0.8rem;
+    }
+
+    .home_description {
+        max-width: initial;
+        margin-bottom: var(--mb-2-5);
+    }
+
+    .home_img {
+        width: 250px;
+        height: 250px;
+        box-shadow: inset 0 0 0 9px rgb(255 255 255 /30%);
+    }
+
+    .home_scroll {
+        margin-left: 7.25rem;
+    }
+}
+
+  /* medium devices */
+    @media screen and (max-width:768px) {
+    .home_content{
+        grid-template-columns: .2fr 1fr ;
+        padding-top: .75rem;
+    }
+
+    .home_img {
+        order: initial;
+        justify-self: initial;
+    }
+
+    .home_data{
+        grid-column: 1/3;
+    }
+
+    .home_img {
+        box-shadow: inset 0 0 0 9px rgb(255 255 255 /30%);
+        width: 250px;
+        height: 250px;
+    }
+
+    .home_scroll{
+        display: none;
+    }
+}
+
+  /* small devices */
+    @media screen and (max-width:350px) {
+    .home_img{
+        width: 180px;
+        height: 185px;
+    }
+
+    .home_hand {
+        width: 22px;
+        height: 22px;
+    }
 }
