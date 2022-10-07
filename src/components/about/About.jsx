@@ -1,7 +1,6 @@
 import React from 'react'
 import "./about.css"
 import AboutImg from "../../assets/1663859875980.jpg"
-import CV from "../../assets/Dani Nur Adheanto.pdf"
 import Info from './Info'
 
 
@@ -17,6 +16,7 @@ function About() {
 
             <div className="about_container container grid">
                 <img src={AboutImg} alt="" className="about_img" />
+
                 <div className="about_data">
                     <Info />
 
@@ -24,7 +24,8 @@ function About() {
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur quis, praesentium temporibus tempora ipsa error debitis eveniet porro perspiciatis tempore reprehenderit asperiores ducimus eum voluptate harum esse, quam quas nisi.
                     </p>
 
-                    <a download="" href={CV} className="button button--flex"> Download CV
+
+                    <a download="DaninuradheantoCV.pdf" href="https://cdn.discordapp.com/attachments/897699901427810345/1027937595885355068/Dani_Nur_Adheanto.pdf" target="__blank" className="button button--flex"> Download CV
                         <svg
                             class="button_icon"
                             xmlns="http://www.w3.org/2000/svg"
