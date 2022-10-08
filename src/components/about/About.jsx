@@ -14,7 +14,7 @@ function About() {
                 My Introduction
             </span>
 
-            <div className="about_container container grid">
+            <div className="about_container container grip">
                 <img src={AboutImg} alt="" className="about_img" />
 
                 <div className="about_data">

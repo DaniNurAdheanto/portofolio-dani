@@ -37,7 +37,7 @@
 
 .home_subtitle{
     position: relative;
-    font-size: var(--h3-font-size);
+    font-size: var(--normal-font-size);
     padding-left: 2.5rem;
     font-weight: var(--font-normal);
     margin-bottom: var(--mb-1);

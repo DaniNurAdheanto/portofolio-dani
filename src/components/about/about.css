@@ -41,5 +41,56 @@
 
 .about_description{
     padding: 0 4rem 0 0;
+    text-align: justify;
     margin-bottom: var(--mb-2-5);
 }
+
+
+/* breakpoints */
+
+/* large devices */
+    @media screen and (max-width:992px) {
+    .about_container {
+        grid-template-columns: 1fr;
+        row-gap: 2.5rem;
+    }
+
+    .about_img{
+        width: 220px;
+    }
+
+    .about_box{
+        padding: 0.75rem 0.5rem;
+    }
+
+    .about_data{
+        text-align: center;
+    }
+
+    .about_info{
+        justify-content: center;
+    }
+
+    .about_description{
+        padding: .5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+  /* medium devices */
+    @media screen and (max-width:576px) {
+        .about_info{
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .about_description{
+            padding: 0;
+        }
+    }
+
+  /* small devices */
+    @media screen and (max-width:350px) {
+        .about_info{
+            grid-template-columns: repeat(3,1fr);
+        }
+    }
