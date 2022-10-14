@@ -33,6 +33,7 @@
 .skills_data{
     display: flex;
     column-gap: 1rem;
+    padding: 8px
 }
 
 .skills .bx-badge-check{
