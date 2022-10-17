@@ -1,15 +1,21 @@
-import React from 'react'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import "./contact.css"
 
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_vuoinfl', 'template_6qwrxb5', form.current, 'FEPqUOrQhTe1rbj5f')
+        e.target.reset()
+    }
+
     return (
         <section className="contact section" id="contact">
-            <h2 className="section_title">
-                Get In Touch
-            </h2>
-            <span className="section_subtitle">
-                Contact Me
-            </span>
+            <h2 className="section_title">Get In Touch</h2>
+            <span className="section_subtitle">Contact Me</span>
 
             <div className="contact_container container grid">
                 <div className="contact_content">
@@ -24,7 +30,7 @@ const Contact = () => {
                                 Email
                             </h3>
                             <span className="contact_card-data">daninur84@gamil.com</span>
-                            <a href="mailto:daninur84@gamil.com.com" className="contact_button">Write Me {""} <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
+                            <a href="mailto:daninur84@gamil.com.com" target="__blank" className="contact_button">Write Me {""} <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
                         </div>
 
                         <div className="contact_card">
@@ -33,7 +39,7 @@ const Contact = () => {
                                 Instagram
                             </h3>
                             <span className="contact_card-data">@daniinurrr</span>
-                            <a href="https://www.instagram.com/daniinurrr/" className="contact_button">Write Me {""} <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
+                            <a href="https://www.instagram.com/daniinurrr/" target="__blank" className="contact_button">Write Me {""} <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
                         </div>
 
                         <div className="contact_card">
@@ -42,7 +48,7 @@ const Contact = () => {
                                 Linked In
                             </h3>
                             <span className="contact_card-data">Dani Nur Adheanto</span>
-                            <a href="https://www.linkedin.com/in/dani-nur-adheanto-723053229/" className="contact_button">Write Me {""} <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
+                            <a href="https://www.linkedin.com/in/dani-nur-adheanto-723053229/" target="__blank" className="contact_button">Write Me {""} <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
                         </div>
                     </div>
                 </div>
@@ -51,7 +57,7 @@ const Contact = () => {
                     <h3 className="contact_title">
                         Contact Me
                     </h3>
-                    <form className="contact_form">
+                    <form ref={form} onSubmit={sendEmail} className="contact_form">
 
                         <div className="contact_form-div">
                             <label className="contact_form-tag">Name</label>
@@ -65,7 +71,7 @@ const Contact = () => {
 
                         <div className="contact_form-div contact_form-area">
                             <label className="contact_form-tag ">Your Message</label>
-                            <textarea name="email" cols="30" rows="10" className="contact_form-input" placeholder="Insert Your Message*" />
+                            <textarea name="message" cols="30" rows="10" className="contact_form-input" placeholder="Insert Your Message*" />
                         </div>
 
                         <button className="button button--flex">

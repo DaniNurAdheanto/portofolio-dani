@@ -1,5 +1,5 @@
 .contact_container{
-    grid-template-columns: repeat(2, max-content);
+    grid-template-columns: repeat(2, max-content) ;
     justify-content: center;
     column-gap: 6rem;
     padding-bottom: 3rem;
@@ -104,3 +104,45 @@
 .contact_form-area textarea{
     resize: none;
 }
+
+
+/* breakpoints */
+
+/* large devices */
+    @media screen and (max-width:992px) {
+        .contact_container{
+            column-gap: 3rem;
+        }
+    }
+
+  /* medium devices */
+    @media screen and (max-width:768px) {
+        .contact_container{
+            grid-template-columns: 1fr;
+            row-gap: 3rem;
+        }
+
+        .contact_info{
+            justify-content: center;
+        }
+        
+        .contact_form{
+            margin: 0 auto;
+        }
+
+    }
+
+    @media screen and (max-width:576px) {
+        .contact_info{
+            grid-template-columns: 1fr;
+        }
+
+        .contact_form{
+            width: 100%;
+        }
+    }
+
+  /* small devices */
+    @media screen and (max-width:350px) {
+        
+    }

@@ -7,6 +7,11 @@
     background-color: var(--body-color);
 }
 
+/* .img_header{
+    height: 20px;
+    width: 20px;
+} */
+
 .nav{
     height: calc(var(--header-height) + 1.5rem);
     display: flex;
