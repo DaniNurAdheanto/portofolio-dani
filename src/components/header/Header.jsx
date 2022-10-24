@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import "./header.css";
-// import AboutImg from "../../assets/1663859875980.jpg"
 
 const Header = () => {
 
@@ -17,8 +16,7 @@ const Header = () => {
         <header className="header">
             <nav className="nav container">
                 <a href="index.html" className="nav_logo">
-                    {/* <img src={AboutImg} alt="" className="img_header" /> */}
-                    Dani Nur Adheanto
+                    <span>Dani </span><span>Nur</span> Adheanto
                 </a>
                 <div className={Toggle ? "nav_menu show-menu" : "nav_menu"}>
                     <ul className="nav_list grip">

@@ -57,6 +57,7 @@ function Frontend() {
                             <span className="skills_level">Basic</span>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>

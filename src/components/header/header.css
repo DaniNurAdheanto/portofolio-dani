@@ -25,6 +25,18 @@
     font-weight: var(--font-medium);
 }
 
+.nav_logo:hover span:nth-child(1){
+    color:#DFD3C3;
+    transition: 0.75s;
+    margin-right: 10px;
+}
+
+.nav_logo:hover span:nth-child(2){
+    color:#DFD3C3;
+    transition: 0.75s;
+    margin-right: 10px;
+}
+
 .nav_list{
     display: flex;
     column-gap: 2rem;

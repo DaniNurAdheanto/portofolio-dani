@@ -38,7 +38,7 @@ const Contact = () => {
                                 Instagram
                             </h3>
                             <span className="contact_card-data">@daniinurrr</span>
-                            <a href="https://www.instagram.com/daniinurrr/" target="__blank" className="contact_button">Write Me {""} <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
+                            <a href="https://www.instagram.com/daniinurrr/" target="__blank" className="contact_button">Follow Me {""} <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
                         </div>
 
                         <div className="contact_card">
@@ -47,7 +47,7 @@ const Contact = () => {
                                 Linked In
                             </h3>
                             <span className="contact_card-data">Dani Nur Adheanto</span>
-                            <a href="https://www.linkedin.com/in/dani-nur-adheanto-723053229/" target="__blank" className="contact_button">Write Me {""} <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
+                            <a href="https://www.linkedin.com/in/dani-nur-adheanto-723053229/" target="__blank" className="contact_button">Connect Me {""} <i className="bx bx-right-arrow-alt contact_button-icon"></i></a>
                         </div>
                     </div>
                 </div>
