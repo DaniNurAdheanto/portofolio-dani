@@ -9,7 +9,7 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: white;
     padding: 3rem 0 2rem 2.5rem;
-    margin: 3rem;
+    margin: 1rem;
     border-radius: 1.25rem;
 }
 
@@ -47,3 +47,29 @@
 .serfit_button:hover .sertif_button-icon{
     transform: translateX(00.30rem);
 }
+
+
+/* breakpoints */
+
+/* large devices */
+@media screen and (max-width:992px) {
+    .serfit_container{
+        grid-template-columns: repeat(2, 320px);
+    }
+    }
+
+  /* medium devices */
+    @media screen and (max-width:768px) {
+    
+    }
+
+    @media screen and (max-width:576px) {
+        .serfit_container{
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+  /* small devices */
+    @media screen and (max-width:350px) {
+        
+    }
