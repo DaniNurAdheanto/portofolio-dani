@@ -58,7 +58,7 @@ function Data() {
             </h1>
 
             <h3 className="home_subtitle">Junior Front-End Developer & UI UX Desainer</h3>
-            <p className="home_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid quas voluptas molestias omnis officia voluptate qui? Exercitationem, inventore accusamus! Dolor ea dignissimos aliquam blanditiis dolores architecto adipisci id alias ut.</p>
+            <p className="home_description">Hi... &#128075;  I'm Dani Nur Adheanto. You can call me Dani. I have passion in UI/UX Design and Front-end Web Developer using HTML, CSS, Javascript and ReactJs.</p>
 
             <a href="#contact" className="button button--flex">
                 Say Hello

@@ -21,7 +21,7 @@ function About() {
                     <Info />
 
                     <p className="about_description">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur quis, praesentium temporibus tempora ipsa error debitis eveniet porro perspiciatis tempore reprehenderit asperiores ducimus eum voluptate harum esse, quam quas nisi.
+                        My name is Dani Nur Adheanto. I am a student from Gunadarma University with a bachelor's degree in informatics. At this time I live in the city of Bekasi. I have 1 year experience in Web Development in the Front-End Developers. The programming languages that I use in the field of Front-End Developers are HTML, CSS, Javascript, and ReactJs. At this time I am very interested in design especially UI/UX Design because, it can improve my skills in the field of design so that I can create a better and more attractive webiste design.
                     </p>
 
 

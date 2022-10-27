@@ -5,7 +5,7 @@
 }
 
 .about_img{
-    width: 350px;
+    width: 420px;
     border-radius: 1.5rem;
     justify-self: center;
 }
@@ -40,7 +40,7 @@
 }
 
 .about_description{
-    padding: 0 4rem 0 0;
+    /* padding: 0 4rem 0 0; */
     text-align: justify;
     margin-bottom: var(--mb-2-5);
 }

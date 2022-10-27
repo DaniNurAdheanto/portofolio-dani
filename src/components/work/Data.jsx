@@ -1,6 +1,7 @@
 import Work1 from "../../assets/work1.jpg"
 import Work2 from "../../assets/biltytech.png"
 import Work3 from "../../assets/taticake.png"
+import Work4 from "../../assets/designwebsite.png"
 import Work5 from "../../assets/S-course.png"
 
 export const projectsData = [
@@ -36,6 +37,15 @@ export const projectsData = [
         title: 'UI Design S-Course',
         category: 'design',
         link: 'https://www.figma.com/proto/tH9RSgIkPdctuREclShMXK/(Kelompok-26)-Design-Thinking%3A-Wireframe-(UIX5)?node-id=176%3A1097&scaling=scale-down&page-id=52%3A231&starting-point-node-id=176%3A876',
+
+    },
+
+    {
+        id: 5,
+        image: Work4,
+        title: 'Design Website E-Commerce',
+        category: 'web',
+        link: 'https://github.com/DaniNurAdheanto/e-commerce_frontend',
 
     },
 
