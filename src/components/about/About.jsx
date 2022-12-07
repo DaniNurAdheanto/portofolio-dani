@@ -25,7 +25,7 @@ function About() {
                     </p>
 
 
-                    <a download="DaninuradheantoCV.pdf" href="https://cdn.discordapp.com/attachments/897699901427810345/1027937595885355068/Dani_Nur_Adheanto.pdf" target="__blank" className="button button--flex"> Download CV
+                    <a download="DaninuradheantoCV.pdf" href="https://cdn.discordapp.com/attachments/897699901427810345/1049963277708443678/Dani_Nur_Adheanto-resume7.pdf" target="__blank" className="button button--flex"> Download CV
                         <svg
                             class="button_icon"
                             xmlns="http://www.w3.org/2000/svg"
