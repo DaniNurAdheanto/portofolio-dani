@@ -1,4 +1,4 @@
-import Work1 from "../../assets/work1.jpg"
+import Work1 from "../../assets/bankjago.png"
 import Work2 from "../../assets/biltytech.png"
 import Work3 from "../../assets/taticake.png"
 import Work4 from "../../assets/designwebsite.png"
@@ -8,8 +8,9 @@ export const projectsData = [
     {
         id: 1,
         image: Work1,
-        title: 'Web Design',
-        category: 'web',
+        title: 'Design “Jago Last Wish” Bank Jago',
+        category: 'design',
+        link: 'https://medium.com/@daninur84/designing-jago-last-wish-bank-jago-ux-case-study-66b70f034c5',
 
     },
 
@@ -48,6 +49,7 @@ export const projectsData = [
         link: 'https://github.com/DaniNurAdheanto/e-commerce_frontend',
 
     },
+
 
 ];
 
