@@ -45,7 +45,7 @@ export const projectsData = [
         id: 5,
         image: Work4,
         title: 'Design Website E-Commerce',
-        category: 'web',
+        category: 'web design',
         link: 'https://github.com/DaniNurAdheanto/e-commerce_frontend',
 
     },
@@ -59,7 +59,7 @@ export const projectsNav = [
     },
 
     {
-        name: 'web',
+        name: 'web design',
     },
 
     {
