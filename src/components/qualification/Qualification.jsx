@@ -37,6 +37,7 @@ const Qualification = () => {
                                 </h3>
                                 <span className="qualification_subtitle">
                                     Informatika
+                                    <p>GPA 3.70/4.0</p>
                                 </span>
                                 <div className="qualification_calender">
                                     <i className="uil uil-calendar-alt"></i> 2019 - Present
