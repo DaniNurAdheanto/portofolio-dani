@@ -9,7 +9,7 @@ export const projectsData = [
         id: 1,
         image: Work1,
         title: 'Design “Jago Last Wish” Bank Jago',
-        category: 'design',
+        category: 'UI/UX',
         link: 'https://medium.com/@daninur84/designing-jago-last-wish-bank-jago-ux-case-study-66b70f034c5',
 
     },
@@ -36,7 +36,7 @@ export const projectsData = [
         id: 4,
         image: Work5,
         title: 'UI Design S-Course',
-        category: 'design',
+        category: 'UI/UX',
         link: 'https://www.figma.com/proto/tH9RSgIkPdctuREclShMXK/(Kelompok-26)-Design-Thinking%3A-Wireframe-(UIX5)?node-id=176%3A1097&scaling=scale-down&page-id=52%3A231&starting-point-node-id=176%3A876',
 
     },
@@ -63,7 +63,7 @@ export const projectsNav = [
     },
 
     {
-        name: 'design',
+        name: 'UI/UX',
     },
 
     {
