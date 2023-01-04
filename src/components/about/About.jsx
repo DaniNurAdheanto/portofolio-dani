@@ -21,7 +21,7 @@ function About() {
                     <Info />
 
                     <p className="about_description">
-                        INI PERCOBAAN My name is Dani Nur Adheanto born on April 10 2001. I am a student from Gunadarma University with a bachelor's degree in informatics. At this time I live in the city of Bekasi. I have 1 year experience in Web Development in the Front-End Developers. The programming languages that I use in the field of Front-End Developers are HTML, CSS, Javascript, and ReactJs. At this time I am very interested in design especially UI/UX Design because, it can improve my skills in the field of design so that I can create a better and more attractive webiste design.
+                        My name is Dani Nur Adheanto born on April 10 2001. I am a student from Gunadarma University with a bachelor's degree in informatics. At this time I live in the city of Bekasi. I have 1 year experience in Web Development in the Front-End Developers. The programming languages that I use in the field of Front-End Developers are HTML, CSS, Javascript, and ReactJs. At this time I am very interested in design especially UI/UX Design because, it can improve my skills in the field of design so that I can create a better and more attractive webiste design.
                     </p>
 
 
