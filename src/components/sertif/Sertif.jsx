@@ -35,6 +35,18 @@ const Sertif = () => {
                         View Certificate <i className="bx bx-right-arrow-alt sertif_button-icon"></i>
                     </a>
                 </div>
+
+                <div className="sertif_content">
+                    <div>
+                        <i className="uil uil-web-grid-alt sertif_icon"></i>
+                        <h3 className="sertif_title"> Bank Jago: UI/UX Challenge</h3>
+                        <h4 className="sertif_company"> Skilvul </h4>
+                    </div>
+
+                    <a href="https://badgr.com/public/assertions/flT_rDaDQtmV8zJrKSeGxA?identity__email=daninur84@gmail.com" target="__blank" className="serfit_button">
+                        View Certificate <i className="bx bx-right-arrow-alt sertif_button-icon"></i>
+                    </a>
+                </div>
             </div>
 
         </section>

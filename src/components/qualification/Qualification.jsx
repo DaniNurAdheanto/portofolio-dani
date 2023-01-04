@@ -91,7 +91,7 @@ const Qualification = () => {
                                     Skilvul · Apprenticeship
                                 </span>
                                 <div className="qualification_calender">
-                                    <i className="uil uil-calendar-alt"></i> 2022 - Present
+                                    <i className="uil uil-calendar-alt"></i> Aug 2022 - Des 2022
                                 </div>
                             </div>
 
@@ -102,6 +102,28 @@ const Qualification = () => {
                                 <span className="qualification_line"></span>
                             </div>
                         </div>
+
+                        {/* <div className="qualification_data">
+                            <div></div>
+                            <div>
+                                <span className="qualification_rounder">
+
+                                </span>
+                                <span className="qualification_line"></span>
+                            </div>
+
+                            <div>
+                                <h3 className="qualification_title">
+                                    Intensive Bootcamp UI/UX Research And Design
+                                </h3>
+                                <span className="qualification_subtitle">
+                                    MySkill
+                                </span>
+                                <div className="qualification_calender">
+                                    <i className="uil uil-calendar-alt"></i> Jan 2023 - Feb 2023
+                                </div>
+                            </div>
+                        </div> */}
                     </div>
 
 
