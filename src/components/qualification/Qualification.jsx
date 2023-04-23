@@ -85,7 +85,7 @@ const Qualification = () => {
                         <div className="qualification_data">
                             <div>
                                 <h3 className="qualification_title">
-                                    UI/UX Design Mastery Learning Path
+                                    UI/UX Design Mastery
                                 </h3>
                                 <span className="qualification_subtitle">
                                     Skilvul · Apprenticeship
@@ -114,7 +114,7 @@ const Qualification = () => {
 
                             <div>
                                 <h3 className="qualification_title">
-                                    Intensive Bootcamp UI/UX Research And Design
+                                    Bootcamp UI/UX Research And Design
                                 </h3>
                                 <span className="qualification_subtitle">
                                     MySkill · Student
