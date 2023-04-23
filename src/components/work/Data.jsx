@@ -3,6 +3,7 @@ import Work2 from "../../assets/biltytech.png"
 import Work3 from "../../assets/taticake.png"
 import Work4 from "../../assets/designwebsite.png"
 import Work5 from "../../assets/S-course.png"
+import Work6 from "../../assets/Maxim.png"
 
 export const projectsData = [
     {
@@ -35,7 +36,7 @@ export const projectsData = [
     {
         id: 4,
         image: Work5,
-        title: 'UI Design S-Course',
+        title: 'UX Case Study S-Course',
         category: 'UI/UX',
         link: 'https://www.figma.com/proto/tH9RSgIkPdctuREclShMXK/(Kelompok-26)-Design-Thinking%3A-Wireframe-(UIX5)?node-id=176%3A1097&scaling=scale-down&page-id=52%3A231&starting-point-node-id=176%3A876',
 
@@ -47,6 +48,15 @@ export const projectsData = [
         title: 'Design Website E-Commerce',
         category: 'web design',
         link: 'https://github.com/DaniNurAdheanto/e-commerce_frontend',
+
+    },
+
+    {
+        id: 6,
+        image: Work6,
+        title: 'UX Case Study Revamp Maxim App',
+        category: 'UI/UX',
+        link: 'https://medium.com/@daninur84/maxim-app-revamp-ux-case-study-91d032da87b8',
 
     },
 

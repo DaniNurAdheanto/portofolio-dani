@@ -103,7 +103,7 @@ const Qualification = () => {
                             </div>
                         </div>
 
-                        {/* <div className="qualification_data">
+                        <div className="qualification_data">
                             <div></div>
                             <div>
                                 <span className="qualification_rounder">
@@ -117,13 +117,34 @@ const Qualification = () => {
                                     Intensive Bootcamp UI/UX Research And Design
                                 </h3>
                                 <span className="qualification_subtitle">
-                                    MySkill
+                                    MySkill · Student
                                 </span>
                                 <div className="qualification_calender">
                                     <i className="uil uil-calendar-alt"></i> Jan 2023 - Feb 2023
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
+
+                        <div className="qualification_data">
+                            <div>
+                                <h3 className="qualification_title">
+                                    UI/UX Research And Design
+                                </h3>
+                                <span className="qualification_subtitle">
+                                    Binar Academy · Student
+                                </span>
+                                <div className="qualification_calender">
+                                    <i className="uil uil-calendar-alt"></i> Mar 2023 - Apr 2023
+                                </div>
+                            </div>
+
+                            <div>
+                                <span className="qualification_rounder">
+
+                                </span>
+                                <span className="qualification_line"></span>
+                            </div>
+                        </div>
                     </div>
 
 

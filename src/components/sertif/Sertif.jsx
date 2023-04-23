@@ -47,6 +47,19 @@ const Sertif = () => {
                         View Certificate <i className="bx bx-right-arrow-alt sertif_button-icon"></i>
                     </a>
                 </div>
+
+
+                <div className="sertif_content">
+                    <div>
+                        <i className="uil uil-web-grid-alt sertif_icon"></i>
+                        <h3 className="sertif_title"> UI/UX Research <br /> and Design</h3>
+                        <h4 className="sertif_company"> MySkill </h4>
+                    </div>
+
+                    <a href="https://storage.googleapis.com/myskill-v2-certificates/bootcamp-sGswko6KzHg9hXbieKBX/m8balUI6hZXqPe6YWdEMexi4WvJ3-gYB2XfgMkxyzdlDrgIgD.pdf" target="__blank" className="serfit_button">
+                        View Certificate <i className="bx bx-right-arrow-alt sertif_button-icon"></i>
+                    </a>
+                </div>
             </div>
 
         </section>
