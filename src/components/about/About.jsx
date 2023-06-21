@@ -21,7 +21,7 @@ function About() {
                     <Info />
 
                     <p className="about_description">
-                        My name is Dani Nur Adheanto born on April 10 2001. I am a student from Gunadarma University with a bachelor's degree in informatics. At this time I live in the city of Bekasi. I have 1 year experience in Web Development in the Front-End Developers. The programming languages that I use in the field of Front-End Developers are HTML, CSS, Javascript, and ReactJs. At this time I am very interested in design especially UI/UX Design because, it can improve my skills in the field of design so that I can create a better and more attractive webiste design.
+                        My  name  is  Dani,  and  I  am  a  student  pursuing  a  degree  in  Informatics  at  Gunadarma  University.  Currently residingin Bekasi, I have a strong passion for the field of UI/UX Design. I possess a year of professional experience as a UI/UX designer, which has equipped me with a diverse skill set encompassing areas such as UX research, Figma, User  Interface  Design,  User  Experience  Design,  and  Design  Thinking.  Furthermore,  I  have  successfully  completed multiple UI/UX Designer bootcamps and have also undertaken various UX Case Studies in relation to UI/UX Design.
                     </p>
 
 
