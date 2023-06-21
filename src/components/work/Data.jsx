@@ -3,7 +3,7 @@ import Work2 from "../../assets/biltytech.png"
 import Work3 from "../../assets/taticake.png"
 import Work4 from "../../assets/designwebsite.png"
 import Work5 from "../../assets/S-course.png"
-import Work6 from "../../assets/Maxim.png"
+import Work6 from "../../assets/thumnail maxim.png"
 
 export const projectsData = [
     {
