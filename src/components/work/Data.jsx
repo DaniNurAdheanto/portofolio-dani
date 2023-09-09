@@ -4,6 +4,7 @@ import Work3 from "../../assets/taticake.png"
 import Work4 from "../../assets/designwebsite.png"
 import Work5 from "../../assets/S-course.png"
 import Work6 from "../../assets/thumnail maxim.png"
+import Work7 from "../../assets/ibukosbanner.png"
 
 export const projectsData = [
     {
@@ -57,6 +58,15 @@ export const projectsData = [
         title: 'UX Case Study Revamp Maxim App',
         category: 'UI/UX',
         link: 'https://medium.com/@daninur84/maxim-app-revamp-ux-case-study-91d032da87b8',
+
+    },
+
+    {
+        id: 7,
+        image: Work7,
+        title: 'UX Case Study Ibu Kos App',
+        category: 'UI/UX',
+        link: 'https://docs.google.com/presentation/d/13QKUcna-KsyOWm9w-VbysxPHSPmgz15617k8RQzJiao/edit?usp=sharing',
 
     },
 
