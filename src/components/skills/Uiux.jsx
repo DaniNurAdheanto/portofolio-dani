@@ -11,7 +11,7 @@ function Uiux() {
                         <i class='bx bx-badge-check'></i>
                         <div>
                             <h3 className="skills_name"> User Experience(UX)</h3>
-                            <span className="skills_level">Basic</span>
+                            <span className="skills_level">Intermediate</span>
                         </div>
                     </div>
 
@@ -19,7 +19,7 @@ function Uiux() {
                         <i class='bx bx-badge-check'></i>
                         <div>
                             <h3 className="skills_name">User Interface Design</h3>
-                            <span className="skills_level">Basic</span>
+                            <span className="skills_level">Intermediate</span>
                         </div>
                     </div>
 
@@ -31,7 +31,7 @@ function Uiux() {
                         <i class='bx bx-badge-check'></i>
                         <div>
                             <h3 className="skills_name">UX Research</h3>
-                            <span className="skills_level">Basic</span>
+                            <span className="skills_level">Intermediate</span>
                         </div>
                     </div>
                     <div className="skills_data">

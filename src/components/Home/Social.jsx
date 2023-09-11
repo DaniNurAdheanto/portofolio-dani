@@ -12,6 +12,9 @@ function Social() {
             <a href="https://github.com/DaniNurAdheanto" className="home_social-icon" target="__blank">
                 <i class="uil uil-github-alt"></i>
             </a>
+            <a href="https://medium.com/@daninur84" className="home_social-icon" target="__blank">
+                <i class="uil uil-medium-m"></i>
+            </a>
         </div>
     )
 }

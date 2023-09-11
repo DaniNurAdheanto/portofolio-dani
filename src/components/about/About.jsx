@@ -21,11 +21,11 @@ function About() {
                     <Info />
 
                     <p className="about_description">
-                        My  name  is  Dani,  and  I  am  a  student  pursuing  a  degree  in  Informatics  at  Gunadarma  University.  Currently residingin Bekasi, I have a strong passion for the field of UI/UX Design. I possess a year of professional experience as a UI/UX designer, which has equipped me with a diverse skill set encompassing areas such as UX research, Figma, User  Interface  Design,  User  Experience  Design,  and  Design  Thinking.  Furthermore,  I  have  successfully  completed multiple UI/UX Designer bootcamps and have also undertaken various UX Case Studies in relation to UI/UX Design.
+                        My name is Dani, I graduated with  a bachelor's degree in Informatics from Gunadarma University. Currently residingin Bekasi, I have a strong passion for the field of UI/UX Design. I possess a year of professional experience as a UI/UX designer, which has equipped me with a diverse skill set encompassing areas such as UX research, Figma, User  Interface  Design,  User  Experience  Design,  and  Design  Thinking.  Furthermore,  I  have  successfully  completed multiple UI/UX Designer bootcamps and have also undertaken various UX Case Studies in relation to UI/UX Design.
                     </p>
 
 
-                    <a download="DaninuradheantoCV.pdf" href="https://cdn.discordapp.com/attachments/897699901427810345/1120975434738302997/CV_2023_DANI_NUR_ADHEANTO.pdf" target="__blank" className="button button--flex"> Download CV
+                    <a download="DaninuradheantoCV.pdf" href="https://cdn.discordapp.com/attachments/897699901427810345/1150688400362450974/CV_2023_DANI_NUR_ADHEANTO_1.pdf" target="__blank" className="button button--flex"> Download CV
                         <svg
                             class="button_icon"
                             xmlns="http://www.w3.org/2000/svg"
