@@ -5,6 +5,9 @@ import Work4 from "../../assets/designwebsite.png"
 import Work5 from "../../assets/S-course.png"
 import Work6 from "../../assets/thumnail maxim.png"
 import Work7 from "../../assets/ibukosbanner.png"
+import Work8 from "../../assets/PorfolioPolusiapp.png"
+import Work9 from "../../assets/1.png"
+import Work10 from "../../assets/2.png"
 
 export const projectsData = [
     {
@@ -70,6 +73,33 @@ export const projectsData = [
 
     },
 
+    {
+        id: 8,
+        image: Work8,
+        title: 'Mobile Design Pollution App',
+        category: 'Mobile Design',
+        link: 'https://dribbble.com/shots/22588233-Pollution-App',
+
+    },
+
+    {
+        id: 9,
+        image: Work9,
+        title: 'Mobile Ticket MRT LRT KRL App 1',
+        category: 'Mobile Design',
+        link: 'https://dribbble.com/shots/22956337-Ticket-MRT-LRT-KRL-App',
+
+    },
+
+    {
+        id: 10,
+        image: Work10,
+        title: 'Mobile Ticket MRT LRT KRL App 2',
+        category: 'Mobile Design',
+        link: 'https://dribbble.com/shots/22956471-Ticket-MRT-LRT-KRL-App',
+
+    },
+
 
 ];
 
@@ -88,5 +118,9 @@ export const projectsNav = [
 
     {
         name: 'website',
+    },
+
+    {
+        name: 'Mobile Design',
     },
 ];

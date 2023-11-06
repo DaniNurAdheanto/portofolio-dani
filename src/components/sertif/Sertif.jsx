@@ -84,6 +84,18 @@ const Sertif = () => {
                         View Certificate <i className="bx bx-right-arrow-alt sertif_button-icon"></i>
                     </a>
                 </div>
+
+                <div className="sertif_content">
+                    <div>
+                        <i className="uil uil-web-grid-alt sertif_icon"></i>
+                        <h3 className="sertif_title"> Junior Graphic <br /> Designer</h3>
+                        <h4 className="sertif_company">BNSP</h4>
+                    </div>
+
+                    <a href="https://drive.google.com/file/d/15zQmU-QTi5q2BErjxt39YUosVW-fff2n/view" target="__blank" className="serfit_button">
+                        View Certificate <i className="bx bx-right-arrow-alt sertif_button-icon"></i>
+                    </a>
+                </div>
             </div>
 
         </section>
