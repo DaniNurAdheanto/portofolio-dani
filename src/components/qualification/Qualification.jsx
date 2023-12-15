@@ -37,10 +37,10 @@ const Qualification = () => {
                                 </h3>
                                 <span className="qualification_subtitle">
                                     Informatika
-                                    <p>GPA 3.70/4.0</p>
+                                    <p>GPA 3.77/4.0</p>
                                 </span>
                                 <div className="qualification_calender">
-                                    <i className="uil uil-calendar-alt"></i> 2019 - Present
+                                    <i className="uil uil-calendar-alt"></i> 2019 - 2023
                                 </div>
                             </div>
 
@@ -143,6 +143,28 @@ const Qualification = () => {
 
                                 </span>
                                 <span className="qualification_line"></span>
+                            </div>
+                        </div>
+
+                        <div className="qualification_data">
+                            <div></div>
+                            <div>
+                                <span className="qualification_rounder">
+
+                                </span>
+                                <span className="qualification_line"></span>
+                            </div>
+
+                            <div>
+                                <h3 className="qualification_title">
+                                    UI/UX Designer Project Based Intern
+                                </h3>
+                                <span className="qualification_subtitle">
+                                    Nuri · Internship
+                                </span>
+                                <div className="qualification_calender">
+                                    <i className="uil uil-calendar-alt"></i> Nov 2023 - Des 2023
+                                </div>
                             </div>
                         </div>
                     </div>

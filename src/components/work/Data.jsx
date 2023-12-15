@@ -8,6 +8,7 @@ import Work7 from "../../assets/ibukosbanner.png"
 import Work8 from "../../assets/PorfolioPolusiapp.png"
 import Work9 from "../../assets/1.png"
 import Work10 from "../../assets/2.png"
+import Work11 from "../../assets/Sf Shop.png"
 
 export const projectsData = [
     {
@@ -97,6 +98,15 @@ export const projectsData = [
         title: 'Mobile Ticket MRT LRT KRL App 2',
         category: 'Mobile Design',
         link: 'https://dribbble.com/shots/22956471-Ticket-MRT-LRT-KRL-App',
+
+    },
+
+    {
+        id: 11,
+        image: Work11,
+        title: 'UX Case Study SF Shop',
+        category: 'UI/UX',
+        link: 'https://docs.google.com/presentation/d/10L2FM-U2ELBixxSa5RUbkuJYrlwhwhIdhILqDPKqyIQ/edit?usp=sharing',
 
     },
 
