@@ -7,7 +7,7 @@ import Work6 from "../../assets/thumnail maxim.png"
 import Work7 from "../../assets/ibukosbanner.png"
 import Work8 from "../../assets/PorfolioPolusiapp.png"
 import Work9 from "../../assets/1.png"
-import Work10 from "../../assets/2.png"
+import Work10 from "../../assets/Ticketed.png"
 import Work11 from "../../assets/Sf Shop.png"
 
 export const projectsData = [
@@ -79,25 +79,25 @@ export const projectsData = [
         image: Work8,
         title: 'Mobile Design Pollution App',
         category: 'Mobile Design',
-        link: 'https://dribbble.com/shots/22588233-Pollution-App',
+        link: 'https://www.behance.net/gallery/188573579/Pollution-App',
 
     },
 
     {
         id: 9,
         image: Work9,
-        title: 'Mobile Ticket MRT LRT KRL App 1',
+        title: 'Mobile Design Ticket MRT LRT KRL',
         category: 'Mobile Design',
-        link: 'https://dribbble.com/shots/22956337-Ticket-MRT-LRT-KRL-App',
+        link: 'https://www.behance.net/gallery/188567071/Ticket-MRT-LRT-KRL-App',
 
     },
 
     {
         id: 10,
         image: Work10,
-        title: 'Mobile Ticket MRT LRT KRL App 2',
+        title: 'Mobile Design Ticketed',
         category: 'Mobile Design',
-        link: 'https://dribbble.com/shots/22956471-Ticket-MRT-LRT-KRL-App',
+        link: 'https://www.behance.net/gallery/188482357/Ticketed-App',
 
     },
 
