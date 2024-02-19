@@ -21,11 +21,11 @@ function About() {
                     <Info />
 
                     <p className="about_description">
-                        My name is Dani, I graduated with  a bachelor's degree in Informatics from Gunadarma University. Currently residingin Bekasi, I have a strong passion for the field of UI/UX Design. I possess a year of professional experience as a UI/UX designer, which has equipped me with a diverse skill set encompassing areas such as UX research, Figma, User  Interface  Design,  User  Experience  Design,  and  Design  Thinking.  Furthermore,  I  have  successfully  completed multiple UI/UX Designer bootcamps and have also undertaken various UX Case Studies in relation to UI/UX Design.
+                        My name is Dani, and I am a Fresh Graduate of Informatics Engineering at Gunadarma University. I currently live in Bekasi, and I have a deep interest in the field of UI/UX Design. With 2 years of professional experience as a UI/UX designer, I have developed a versatile skill set that includes UX research, Figma, User Interface Design, User Experience Design, and Design Thinking. Additionally, I have successfully completed several UI/UX Designer bootcamps and projects and been involved in various UX Case Studies related to UI/UX Design.
                     </p>
 
 
-                    <a download="DaninuradheantoCV.pdf" href="https://cdn.discordapp.com/attachments/897699901427810345/1185149928104804383/CV_2023_DANI_NUR_ADHEANTO_3.pdf?ex=658e8fe1&is=657c1ae1&hm=d140859fdbac46f29304762dfa9c79f6d6b2f6dc43388f45de1e01a8e366eaa3&" target="__blank" className="button button--flex"> Download CV
+                    <a download="DaninuradheantoCV.pdf" href="https://cdn.discordapp.com/attachments/897699901427810345/1209034688446857306/CV__Dani_Nur_Adheanto_UI_UX_Designer.pdf?ex=65e5744c&is=65d2ff4c&hm=d9941d271941b82347ba2146f7985a33c86bee8e43edbf39049e2a9989068f3c&" target="__blank" className="button button--flex"> Download CV
                         <svg
                             class="button_icon"
                             xmlns="http://www.w3.org/2000/svg"
