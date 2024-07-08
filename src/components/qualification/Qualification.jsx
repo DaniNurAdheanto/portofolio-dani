@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import "./qualification.css"
 
 const Qualification = () => {
-    const [toogleState, setToggleState] = useState(1);
+    const [toogleState, setToggleState] = useState(2);
 
     const toggleTab = (index) => {
         setToggleState(index);
@@ -165,6 +165,27 @@ const Qualification = () => {
                                 <div className="qualification_calender">
                                     <i className="uil uil-calendar-alt"></i> Nov 2023 - Des 2023
                                 </div>
+                            </div>
+                        </div>
+
+                        <div className="qualification_data">
+                            <div>
+                                <h3 className="qualification_title">
+                                    UI/UX Designer Intern
+                                </h3>
+                                <span className="qualification_subtitle">
+                                    Binar Academy · Internship
+                                </span>
+                                <div className="qualification_calender">
+                                    <i className="uil uil-calendar-alt"></i> Mar 2024 - Jun 2024
+                                </div>
+                            </div>
+
+                            <div>
+                                <span className="qualification_rounder">
+
+                                </span>
+                                <span className="qualification_line"></span>
                             </div>
                         </div>
                     </div>

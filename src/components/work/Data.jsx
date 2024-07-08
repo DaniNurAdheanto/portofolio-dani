@@ -9,6 +9,7 @@ import Work8 from "../../assets/PorfolioPolusiapp.png"
 import Work9 from "../../assets/1.png"
 import Work10 from "../../assets/Ticketed.png"
 import Work11 from "../../assets/Sf Shop.png"
+import Work12 from "../../assets/Proflin.png"
 
 export const projectsData = [
     {
@@ -107,6 +108,15 @@ export const projectsData = [
         title: 'UX Case Study SF Shop',
         category: 'UI/UX',
         link: 'https://docs.google.com/presentation/d/10L2FM-U2ELBixxSa5RUbkuJYrlwhwhIdhILqDPKqyIQ/edit?usp=sharing',
+
+    },
+
+    {
+        id: 12,
+        image: Work12,
+        title: 'Proflin ',
+        category: 'UI/UX',
+        link: 'https://docs.google.com/presentation/d/1rzkzteVazRM5pFrmEr3Ecr7Jwe-Yh8jyuqJ-CT5zjaE/edit?usp=sharing',
 
     },
 
