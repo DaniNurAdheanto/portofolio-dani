@@ -25,7 +25,7 @@ function About() {
                     </p>
 
 
-                    <a link="DaninuradheantoCV.pdf" href="https://docs.google.com/document/d/1jvLs2P1oDBRrqV33YeL72xPDbGWR3KMHMsYHHR25XmE/edit?usp=sharing" target="__blank" className="button button--flex"> Download CV
+                    <a link="DaninuradheantoCV.pdf" href="https://docs.google.com/document/d/1jvLs2P1oDBRrqV33YeL72xPDbGWR3KMHMsYHHR25XmE/edit?usp=sharing" target="__blank" className="button button--flex"> View Resume
                         <svg
                             class="button_icon"
                             xmlns="http://www.w3.org/2000/svg"
