@@ -46,7 +46,7 @@ function Frontend() {
                         <i class='bx bx-badge-check'></i>
                         <div>
                             <h3 className="skills_name">Git</h3>
-                            <span className="skills_level">Basic</span>
+                            <span className="skills_level">Intermediate</span>
                         </div>
                     </div>
 
@@ -54,7 +54,7 @@ function Frontend() {
                         <i class='bx bx-badge-check'></i>
                         <div>
                             <h3 className="skills_name">React Js</h3>
-                            <span className="skills_level">Basic</span>
+                            <span className="skills_level">Intermediate</span>
                         </div>
                     </div>
 
