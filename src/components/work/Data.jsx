@@ -11,6 +11,7 @@ import Work10 from "../../assets/Ticketed.png"
 import Work11 from "../../assets/Sf Shop.png"
 import Work12 from "../../assets/Proflin Banner.png"
 import Work13 from "../../assets/UX Case Study Eco Buffet.png"
+import Work14 from "../../assets/Dashboardecobuffet.png"
 
 export const projectsData = [
     {
@@ -127,6 +128,15 @@ export const projectsData = [
         title: 'UX Case Study Eco Buffet',
         category: 'UI/UX',
         link: 'https://docs.google.com/presentation/d/1l029zxEiqWyRGB5NZGl2NdNN5Bd48bXSE0mxKGenWNA/edit?usp=sharing',
+
+    },
+
+    {
+        id: 14,
+        image: Work14,
+        title: 'Dashboard EcoBuffet',
+        category: 'UI/UX',
+        link: 'https://www.figma.com/proto/R22E60Pg8LONnGGi2qySEv/Design?page-id=702%3A4837&node-id=718-174&node-type=frame&viewport=727%2C889%2C0.22&t=ZbgNBiR14YmawUyK-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=718%3A174&hotspot-hints=0',
 
     },
 
