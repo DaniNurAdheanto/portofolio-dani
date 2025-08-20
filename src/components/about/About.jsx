@@ -21,7 +21,11 @@ function About() {
                     <Info />
 
                     <p className="about_description">
-                        My name is Dani, and I am a Fresh Graduate of Informatics Engineering at Gunadarma University. I currently live in Bekasi, and I have a deep interest in the field of UI/UX Design. With 2 years of professional experience as a UI/UX designer, I have developed a versatile skill set that includes UX research, Figma, User Interface Design, User Experience Design, and Design Thinking. Additionally, I have successfully completed several UI/UX Designer bootcamps and projects and been involved in various UX Case Studies related to UI/UX Design.
+                        My name is Dani, I am a UI/UX Designer with 2 years of experience and a track record of creating optimized
+                        and innovative user experiences. Expert in user research, product analysis, and interface design
+                        using Figma and various tools. Skilled in translating business needs into functional, scalable, and
+                        developer-ready design solutions. Fast learner, adaptive to technology trends, and ready to face
+                        challenges to drive product growth.
                     </p>
 
 
