@@ -188,9 +188,29 @@ const Qualification = () => {
                                 <span className="qualification_line"></span>
                             </div>
                         </div>
+
+                        <div className="qualification_data">
+                            <div></div>
+                            <div>
+                                <span className="qualification_rounder">
+
+                                </span>
+                                <span className="qualification_line"></span>
+                            </div>
+
+                            <div>
+                                <h3 className="qualification_title">
+                                    UI/UX Designer
+                                </h3>
+                                <span className="qualification_subtitle">
+                                    PT Alpha Arjuna Internasional (Talent Insider)
+                                </span>
+                                <div className="qualification_calender">
+                                    <i className="uil uil-calendar-alt"></i> Jan 2025 - Jul 2025
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
-
                 </div>
             </div>
         </section >
