@@ -1,9 +1,10 @@
 import React from 'react'
+import { smoothScrollTo } from "../../utils/smoothScroll";
 
 function ScrollDown() {
     return (
         <div className="home_scroll">
-            <a href="#about" className="home_scroll-button button--flex">
+            <a href="#about" onClick={(e) => { e.preventDefault(); smoothScrollTo('#about'); }} className="home_scroll-button button--flex">
                 <svg
                     width="32px"
                     height="32px"

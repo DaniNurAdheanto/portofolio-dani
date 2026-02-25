@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./header.css";
+import { smoothScrollTo } from "../../utils/smoothScroll";
 
 const Header = () => {
 
@@ -21,31 +22,31 @@ const Header = () => {
                 <div className={Toggle ? "nav_menu show-menu" : "nav_menu"}>
                     <ul className="nav_list grip">
                         <li className="nav_item">
-                            <a href="#home" onClick={() => serActiveNav('#home')} className={activeNav === "#home" ? "nav_link active-link" : "nav_link "}>
+                            <a href="#home" onClick={(e) => { e.preventDefault(); serActiveNav('#home'); smoothScrollTo('#home'); }} className={activeNav === "#home" ? "nav_link active-link" : "nav_link "}>
                                 <i className="uil uil-estate nav_icon"></i> Home
                             </a>
                         </li>
 
                         <li className="nav_item">
-                            <a href="#about" onClick={() => serActiveNav('#about')} className={activeNav === "#about" ? "nav_link active-link" : "nav_link "}>
+                            <a href="#about" onClick={(e) => { e.preventDefault(); serActiveNav('#about'); smoothScrollTo('#about'); }} className={activeNav === "#about" ? "nav_link active-link" : "nav_link "}>
                                 <i className="uil uil-user nav_icon"></i> About
                             </a>
                         </li>
 
                         <li className="nav_item">
-                            <a href="#skills" onClick={() => serActiveNav('#skills')} className={activeNav === "#skills" ? "nav_link active-link" : "nav_link "}>
+                            <a href="#skills" onClick={(e) => { e.preventDefault(); serActiveNav('#skills'); smoothScrollTo('#skills'); }} className={activeNav === "#skills" ? "nav_link active-link" : "nav_link "}>
                                 <i className="uil uil-file-alt nav_icon"></i> Skills
                             </a>
                         </li>
 
                         <li className="nav_item">
-                            <a href="#portfolio" onClick={() => serActiveNav('#portfolio')} className={activeNav === "#portfolio" ? "nav_link active-link" : "nav_link "}>
+                            <a href="#portfolio" onClick={(e) => { e.preventDefault(); serActiveNav('#portfolio'); smoothScrollTo('#portfolio'); }} className={activeNav === "#portfolio" ? "nav_link active-link" : "nav_link "}>
                                 <i className="uil uil-scenery nav_icon"></i> Portfolio
                             </a>
                         </li>
 
                         <li className="nav_item">
-                            <a href="#contact" onClick={() => serActiveNav('#contact')} className={activeNav === "#contact" ? "nav_link active-link" : "nav_link "}>
+                            <a href="#contact" onClick={(e) => { e.preventDefault(); serActiveNav('#contact'); smoothScrollTo('#contact'); }} className={activeNav === "#contact" ? "nav_link active-link" : "nav_link "}>
                                 <i className="uil uil-message nav_icon"></i> Contact
                             </a>
                         </li>

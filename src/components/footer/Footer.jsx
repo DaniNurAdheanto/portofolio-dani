@@ -1,5 +1,6 @@
 import React from 'react'
 import "./footer.css"
+import { smoothScrollTo } from "../../utils/smoothScroll";
 
 const Footer = () => {
     return (
@@ -9,15 +10,15 @@ const Footer = () => {
 
                 <ul className="footer_list">
                     <li>
-                        <a href="#about" className="footer_link">About</a>
+                        <a href="#about" onClick={(e) => { e.preventDefault(); smoothScrollTo('#about'); }} className="footer_link">About</a>
                     </li>
-
+        
                     <li>
-                        <a href="#skills" className="footer_link">Skills</a>
+                        <a href="#skills" onClick={(e) => { e.preventDefault(); smoothScrollTo('#skills'); }} className="footer_link">Skills</a>
                     </li>
-
+        
                     <li>
-                        <a href="#portfolio" className="footer_link">Portfolio</a>
+                        <a href="#portfolio" onClick={(e) => { e.preventDefault(); smoothScrollTo('#portfolio'); }} className="footer_link">Portfolio</a>
                     </li>
                 </ul>
 

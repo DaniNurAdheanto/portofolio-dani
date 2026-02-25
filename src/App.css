@@ -105,6 +105,20 @@ img{
   height: auto;
 }
 
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--title-color);
+  border-radius: 999px;
+}
+
 
 /* resusable css clases */
 .section{
@@ -158,9 +172,28 @@ img{
   margin-left: var(--mb-0-5);
 }
 
-.button-flex{
+.button--flex{
   display: inline-flex;
   align-items: center;
+}
+
+.opening-screen{
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.65);
+  color: #fff;
+  z-index: var(--z-modal);
+}
+
+.opening-screen-text{
+  font-size: 3.5rem;
+  font-weight: var(--font-medium);
+  letter-spacing: -0.03em;
+  text-align: center;
+  display: block;
 }
 
 /* breakpoints */

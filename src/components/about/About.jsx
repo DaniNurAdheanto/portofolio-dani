@@ -21,7 +21,7 @@ function About() {
                     <Info />
 
                     <p className="about_description">
-                        My name is Dani, I am a UI/UX Designer with 2 years of experience and a track record of creating optimized
+                        My name is Dani, I am a UI/UX Designer with 2.5 years of experience and a track record of creating optimized
                         and innovative user experiences. Expert in user research, product analysis, and interface design
                         using Figma and various tools. Skilled in translating business needs into functional, scalable, and
                         developer-ready design solutions. Fast learner, adaptive to technology trends, and ready to face
@@ -29,7 +29,7 @@ function About() {
                     </p>
 
 
-                    <a link="DaninuradheantoCV.pdf" href="https://drive.google.com/file/d/1dM9SQt0-hx9CS9OCfYL4z5DRJMQDhXxN/view?usp=sharing" target="__blank" className="button button--flex"> View Resume
+                    <a link="DaninuradheantoCV.pdf" href="https://drive.google.com/file/d/1s2azFvkbHwBcLle4Lkht0p0K2hw_3qXw/view?usp=sharing" target="__blank" className="button button--flex"> View Resume
                         <svg
                             class="button_icon"
                             xmlns="http://www.w3.org/2000/svg"

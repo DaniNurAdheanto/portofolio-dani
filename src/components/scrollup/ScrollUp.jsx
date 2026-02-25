@@ -1,5 +1,6 @@
 import React from 'react'
 import "./scrollup.css"
+import { smoothScrollTo } from "../../utils/smoothScroll";
 
 const ScrollUp = () => {
     window.addEventListener("scroll", function () {
@@ -8,7 +9,7 @@ const ScrollUp = () => {
         else scrollUp.classList.remove("show-scroll");
     });
     return (
-        <a href="#home" className="scrollup">
+        <a href="#home" onClick={(e) => { e.preventDefault(); smoothScrollTo('#home'); }} className="scrollup">
             <i className="uil uil-arrow-up scrollup_icon"></i>
         </a>
     )

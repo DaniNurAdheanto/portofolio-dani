@@ -4,7 +4,10 @@
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: var(--body-color);
+    background-color: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 /* .img_header{
@@ -62,7 +65,7 @@
 }
 
 .scroll-header{
-    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 -1px 12px rgba(0, 0, 0, 0.35);
 }
 
 /* medium devices */
@@ -79,7 +82,9 @@
         bottom: -100%;
         left: 0;
         width: 100%;
-        background-color: var(--body-color);
+        background-color: rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(18px);
+        -webkit-backdrop-filter: blur(18px);
         padding: 2rem 1.5rem 4rem;
         box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
         border-radius: 1.5rem 1.5rem 0 0;
