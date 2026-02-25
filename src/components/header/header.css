@@ -88,19 +88,23 @@
         padding: 2rem 1.5rem 4rem;
         box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
         border-radius: 1.5rem 1.5rem 0 0;
-        transition: .3s;
+        opacity: 0;
+        transform: translateY(12px);
+        transition: opacity .3s ease, transform .3s ease, bottom .3s ease;
     }
 
     /* Show Menu */
     .show-menu{
         bottom: 0;
+        opacity: 1;
+        transform: translateY(0);
     }
 
 
     .nav_list{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 2rem;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1.5rem;
     }
 
     .nav_icon{
