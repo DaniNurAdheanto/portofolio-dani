@@ -1,50 +1,32 @@
 import React from 'react'
 
+const skillsData = [
+    { name: 'Understanding & Planning', level: 'Intermediate' },
+    { name: 'Ideation, User-Flow, IA, etc', level: 'Intermediate' },
+    { name: 'Moodboard/Benchmarking', level: 'Intermediate' },
+    { name: 'Wireframe & High-Fidelity Design', level: 'Intermediate' },
+    { name: 'Design System & Prototype', level: 'Intermediate' },
+    { name: 'Testing, Iteration & Hand-Off', level: 'Intermediate' },
+]
+
 function Uiux() {
     return (
-        <div className="skills_content">
-            <h3 className="skills_title">UI/UX Design</h3>
-
-            <div className="skills_box">
-                <div className="skills_groub">
-                    <div className="skills_data">
-                        <i class='bx bx-badge-check'></i>
-                        <div>
-                            <h3 className="skills_name"> User Experience(UX)</h3>
-                            <span className="skills_level">Intermediate</span>
-                        </div>
-                    </div>
-
-                    <div className="skills_data">
-                        <i class='bx bx-badge-check'></i>
-                        <div>
-                            <h3 className="skills_name">User Interface Design</h3>
-                            <span className="skills_level">Intermediate</span>
-                        </div>
-                    </div>
-
-
+        <div className="skills_content skills_content--product">
+            <div className="skills_header">
+                <i className="bx bxs-grid-alt skills_icon skills_icon--product"></i>
+                <div>
+                    <h3 className="skills_title">End-To-End Product</h3>
+                    <p className="skills_description">From early ideas to production-ready designs, I support the full product design process.</p>
                 </div>
+            </div>
 
-                <div className="skills_groub">
-                    <div className="skills_data">
-                        <i class='bx bx-badge-check'></i>
-                        <div>
-                            <h3 className="skills_name">UX Research</h3>
-                            <span className="skills_level">Intermediate</span>
-                        </div>
+            <div className="skills_list">
+                {skillsData.map((skill, index) => (
+                    <div key={index} className="skills_item">
+                        <i className="bx bx-check-circle skills_check skills_check--product"></i>
+                        <h4 className="skills_name">{skill.name}</h4>
                     </div>
-                    <div className="skills_data">
-                        <i class='bx bx-badge-check'></i>
-                        <div>
-                            <h3 className="skills_name">Figma</h3>
-                            <span className="skills_level">Intermediate</span>
-                        </div>
-                    </div>
-
-
-                </div>
-
+                ))}
             </div>
         </div>
     )

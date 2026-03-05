@@ -21,20 +21,27 @@ const Works = () => {
     }, [item]);
 
     const handleClick = (e, index) => {
-        setItem({ name: e.target.textContent });
+        const clickedNav = projectsNav[index];
+        setItem({ name: clickedNav.name });
         setActive(index);
     };
+    
     return (
         <div>
             <div className="work_filters">
-                {projectsNav.map((item, index) => {
-                    return (<span
-                        onClick={(e) => {
-                            handleClick(e, index);
-                        }}
-                        className={`${active === index ? 'active-work' : ''} work_item`}
-                        key={index}>
-                        {item.name}</span>);
+                {projectsNav.map((filterItem, index) => {
+                    return (
+                        <button
+                            onClick={(e) => {
+                                handleClick(e, index);
+                            }}
+                            className={`work_filter-btn ${active === index ? 'active-work' : ''}`}
+                            key={index}
+                        >
+                            <i className={`${filterItem.icon}`}></i>
+                            <span>{filterItem.label || filterItem.name}</span>
+                        </button>
+                    );
                 })}
             </div>
 

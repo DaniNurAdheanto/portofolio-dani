@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import "./App.css";
 import Header from './components/header/Header';
 import Home from './components/Home/Home';
@@ -13,10 +13,24 @@ import Sertif from './components/sertif/Sertif';
 import OpeningScreen from './components/OpeningScreen';
 
 const App =() => {
+  const [theme, setTheme] = useState('light-theme');
+
+  const toggleTheme = () => {
+    if (theme === 'light-theme') {
+      setTheme('dark-theme');
+    } else {
+      setTheme('light-theme');
+    }
+  };
+
+  useEffect(() => {
+    document.body.className = theme;
+  }, [theme]);
+
   return (
     <>
         <OpeningScreen />
-        <Header />
+        <Header toggleTheme={toggleTheme} theme={theme} />
 
         <main className='main'>
         <Home />
