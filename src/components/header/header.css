@@ -101,6 +101,7 @@ body.dark-theme .nav_link:hover {
     .header{
         top: initial;
         bottom: 0;
+        z-index: var(--z-fixed);
     }
     .nav{
         height: var(--header-height);
@@ -110,6 +111,7 @@ body.dark-theme .nav_link:hover {
         bottom: -100%;
         left: 0;
         width: 100%;
+        height: calc(100% - var(--header-height));
         background-color: rgba(255, 255, 255, 0.08);
         backdrop-filter: blur(18px);
         -webkit-backdrop-filter: blur(18px);
@@ -119,11 +121,12 @@ body.dark-theme .nav_link:hover {
         opacity: 0;
         transform: translateY(12px);
         transition: opacity .3s ease, transform .3s ease, bottom .3s ease;
+        z-index: calc(var(--z-fixed) + 1);
     }
 
     /* Show Menu */
     .show-menu{
-        bottom: 0;
+        bottom: 10rem;
         opacity: 1;
         transform: translateY(0);
     }
@@ -159,14 +162,49 @@ body.dark-theme .nav_link:hover {
     .nav_toggle{
         font-size: 1.1rem;
         cursor: pointer;
+        z-index: calc(var(--z-fixed) + 2);
     }
 
     .theme_toggle{
         font-size: 1.1rem;
         cursor: pointer;
+        /* mobile-specific position will be overridden below */
         position: absolute;
         left: 1.3rem;
         bottom: .5rem;
+    }
+
+    /* keep toggle visible on header in mobile layout */
+    @media screen and (max-width:768px) {
+        .theme_toggle {
+            display: block;
+            position: relative;
+            left: auto;
+            bottom: auto;
+            margin-right: 1rem;
+        }
+    }
+
+    /* previously hid global toggle; now allow visible on header as well */
+    /* .theme_toggle{
+        display: none;
+    } */
+
+    .nav_theme-mobile{
+        position: absolute;
+        bottom: 1.5rem;
+        left: 1.5rem;
+        font-size: 1.3rem;
+        cursor: pointer;
+        color: var(--title-color);
+    }
+
+    .nav_theme-mobile:hover{
+        color: var(--title-color-dark);
+    }
+
+    .nav_icon, .nav_close, .nav_toggle, .theme_toggle {
+        display: block;
     }
 
     .nav_icon, .nav_close, .nav_toggle, .theme_toggle {

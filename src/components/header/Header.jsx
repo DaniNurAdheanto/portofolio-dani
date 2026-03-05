@@ -35,7 +35,7 @@ const Header = ({ toggleTheme, theme }) => {
 
                         <li className="nav_item">
                             <a href="#skills" onClick={(e) => { e.preventDefault(); serActiveNav('#skills'); smoothScrollTo('#skills'); }} className={activeNav === "#skills" ? "nav_link active-link" : "nav_link "}>
-                                <i className="uil uil-file-alt nav_icon"></i> Skills
+                                <i className="uil uil-file-alt nav_icon"></i>  Skills
                             </a>
                         </li>
 
