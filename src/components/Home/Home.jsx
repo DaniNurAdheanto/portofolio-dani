@@ -19,7 +19,7 @@ function Home() {
 
                 <ScrollDown />
             </div>
-            <ScrollMarquee text="Designer At Work" speed={40} />
+            <ScrollMarquee texts={["Crafting Digital Experiences", "Available for Freelance" , "Let's Collaborate"]} speed={20} />
         </section>
     )
 }

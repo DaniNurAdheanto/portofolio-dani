@@ -1,10 +1,11 @@
 .scrollmarquee_container {
   width: 100%;
+  max-width: none;
   overflow: hidden;
   background-color: #000;
   color: #fff;
   padding: 14px 0;
-  margin: 24px 0;
+  margin: 100px 0 0 0;
 }
 
 /* Dark theme - inverted colors */
@@ -36,7 +37,7 @@ body.dark-theme .scrollmarquee_container {
 }
 
 .marquee_item::after {
-  content: "✕";
+  content: "|";
   color: inherit;
   font-size: 20px;
 }

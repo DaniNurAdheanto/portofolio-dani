@@ -157,7 +157,7 @@
     }
 }
 
-  /* medium devices */
+/* large devices */
     @media screen and (max-width:768px) {
     .home_content{
         grid-template-columns: .2fr 1fr ;
