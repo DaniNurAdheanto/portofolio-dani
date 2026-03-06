@@ -3,6 +3,7 @@ import "./home.css";
 import Social from './Social';
 import Data from './Data';
 import ScrollDown from './ScrollDown';
+import ScrollMarquee from '../scrollmarquee/ScrollMarquee';
 
 function Home() {
     return (
@@ -18,6 +19,7 @@ function Home() {
 
                 <ScrollDown />
             </div>
+            <ScrollMarquee text="Designer At Work" speed={40} />
         </section>
     )
 }
